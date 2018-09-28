@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>票项管理</title>
+	</head>
+	<body>
+		<table border="0" cellspacing="0" width="100%" height="560">
+			<tr align="center" valign="middle" height="120">
+				<td colspan="2">
+					<h1>
+						电子商务平台 — 后台
+					</h1>
+				</td>
+			</tr>
+			<tr align="center" valign="middle" height="1">
+				<td colspan="2">
+					<hr width="100%" height="1"/>
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<table width="170">
+						<tr align="center" valign="middle">
+							<td>
+								<a href="AdminIndex.jsp">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a><br/><br/>
+								<a href="TicketManage.html">票项管理</a><br/><br/>
+								<a href="UserListServlet">用户管理</a><br/><br/>
+								<a href="OrderListServlet">订单管理</a><br/><br/>
+								<a href="AdminLoginServlet">退&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出</a>
+							</td>
+							<td>
+								<table style="height:410px;border-color:000000;border-left-style:solid;border-width:1px">
+									<tr>
+										<td valign="top"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<form action="url" method="post">
+						起始日期：<input type="text" name="startDay" value="2018-6-20" size="8">
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						终止日期：<input type="text" name="endDay" value="2018-6-20" size="8">
+						&nbsp;&nbsp;
+						<input type="button" name="searchTicket" value="   查 询   ">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="addTicket.html"><input type="button" name="addTicket" value="    添加票项    "></a>
+						<br/><br/>
+						<table border="1" cellspacing="0" width="680">
+							<tr align="center" valign="middle" height="50">
+								<td width="6%"><font size="-1"><b>编号</b></font></td>
+								<td width="20%"><font size="-1"><b>描&nbsp;&nbsp;&nbsp;&nbsp;述</b></font></td>
+								<td width="12%"><font size="-1"><b>时&nbsp;&nbsp;间</b></font></td>
+								<td width="14%"><font size="-1"><b>总票数(张)</b></font></td>
+								<td width="12%"><font size="-1"><b>剩余票数(张)</b></font></td>
+								<td width="10%"><font size="-1"><b>单价(元)</b></font></td>
+								<td width="8%"><font size="-1"><b>状态</b></font></td>
+								<td width="14%"></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td><font size="-1">1</font></td>
+								<td><font size="-1">嘻哈包袱铺西直门剧场</font></td>
+								<td><font size="-1">2018-04-30 20：00</font></td>
+								<td><font size="-1">300</font></td>
+								<td><font size="-1">100</font></td>
+								<td><font size="-1">50.00</font></td>
+								<td><font size="-1">售票中</font></td>
+								<td>
+									<input type="button" name="searchTicket" value="停售">
+									<a href="modifyTicket.html"><input type="button" name="modifyTicket" value="修改"></a>
+								</td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr align="center" valign="middle">
+								<td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+						</table>
+						<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<font size="-1" color="blue"><u>首页</u></font>
+						&nbsp;&nbsp;
+						<font size="-1" color="blue"><u>上一页</u></font>
+						&nbsp;&nbsp;
+						<font size="-1" color="blue"><u>下一页</u></font>
+						&nbsp;&nbsp;
+						<font size="-1" color="blue"><u>末页</u></font>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

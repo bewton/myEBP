@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>修改票项</title>
+	</head>
+	<body>
+		<table border="0" cellspacing="0" width="100%" height="560">
+			<tr align="center" valign="middle" height="120">
+				<td colspan="2">
+					<h1>
+						电子商务平台 — 后台
+					</h1>
+				</td>
+			</tr>
+			<tr align="center" valign="middle" height="1">
+				<td colspan="2">
+					<hr width="100%" height="1"/>
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<table width="170">
+						<tr align="center" valign="middle">
+							<td>
+								<a href="AdminIndex.jsp">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a><br/><br/>
+								<a href="TicketManage.html">票项管理</a><br/><br/>
+								<a href="UserListServlet">用户管理</a><br/><br/>
+								<a href="OrderListServlet">订单管理</a><br/><br/>
+								<a href="AdminLoginServlet">退&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出</a>
+							</td>
+							<td>
+								<table style="height:410px;border-color:000000;border-left-style:solid;border-width:1px">
+									<tr>
+										<td valign="top"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					修&nbsp;&nbsp;改&nbsp;&nbsp;票&nbsp;&nbsp;项</h3>
+					<form action="url" method="post">
+						<table border="0">
+							<tr valign="top">
+								<td>描&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;述：</td>
+								<td>
+									<textarea name="discribe" rows="3" cols="22"></textarea>
+									<br/><br/>
+								</td>
+							</tr>
+							<tr valign="top">
+								<td>时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;间：</td>
+								<td>
+									<input type="text" name="time"/>
+									<br/><br/>
+								</td>
+							</tr>
+							<tr valign="top">
+								<td>总&nbsp;&nbsp;票&nbsp;&nbsp;数：</td>
+								<td>
+									<input type="text" name="ticketAllNum"/>
+									<br/><br/>
+								</td>
+							</tr>
+							<tr valign="top">
+								<td>剩余票数：</td>
+								<td>
+									<input type="text" name="ticketLeftNum"/>
+									<br/><br/>
+								</td>
+							</tr>
+							<tr valign="top">
+								<td>单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：</td>
+								<td>
+									<input type="text" name="ticketPrice"/>
+									<br/><br/>
+								</td>
+							</tr>
+							<tr valign="top"></td>
+								<td colspan="2">
+									&nbsp;&nbsp;&nbsp;
+									&nbsp;&nbsp;&nbsp;
+									<input type="button" name="btnModify" value="  修  改  "/>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="reset" name="btnReset" value="  重  置  "/>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
